@@ -67,9 +67,25 @@ python supplemental/chinese/evaluate_model_zhongwen.py --help
 
 For the English runners, explicitly set `--input_file` to `final_data/PaCE_Benchmark_Full_v1.jsonl`. The runners accept model and endpoint configuration and write evaluation outputs to local result files. 
 
-## Privacy and API configuration
+## Terms of Use and Licensing
 
+Thank you for your interest in our research dataset and software. Please read the following terms carefully before downloading, using, or redistributing the materials.
 
-## Dataset and software terms
+### 1. Licensing
+- **Dataset:** The dataset is licensed under the [Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
+- **Software:** The source code and software tools are licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
+### 2. Citation Requirement
+If you use our dataset or software in your research, publications, or products, you agree to cite the following paper:
+
+> Ziming Li, Yu Tian, Tian Lan, Jiang Li, Zehua Duo, Guanglai Gao, and Xiangdong Su, "Born Pragmatic, Trained to Hallucinate? Quantifying the Origins of Contextual Bias in LLMs via the PaCE Benchmark," Findings of the Association for Computational Linguistics: ACL 2026, 2026.
+> DOI: https://doi.org/10.18653/v1/2026.findings-acl.959
+
+### 3. Disclaimer
+THE DATASET AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE DATASET OR SOFTWARE OR THE USE OR OTHER DEALINGS IN THE DATASET OR SOFTWARE.
+
+### 4. User Obligations
+Users agree not to:
+- Use the dataset or software for any illegal or unauthorized purposes.
+- Attempt to re-identify any anonymized human subjects or sensitive personal information (if applicable).
 
